@@ -25,6 +25,11 @@ button:hover {
     left: 100px;
 }
 
+.about_headers p {
+    font-size: 20px;
+}
+
+
 
 .about_link {
     font-size: 20px;

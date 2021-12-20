@@ -229,7 +229,7 @@ function toggleOccipitalText() {
 
     
   function clearTextBox() {
-    var textArray = ["occipital_text","corpus_text","thalamus_text","pituitary_text","midbrain_text","pons_text","cerebellum_text","parietal_text","frontal_text","temporal_text"];
+    var textArray = ["occipital_text","corpus_text","thalamus_text","pituitary_text","midbrain_text","parietal_text","frontal_text","temporal_text"];
 
     var textArrayLength = textArray.length;
 
@@ -242,7 +242,7 @@ function toggleOccipitalText() {
   }
 
   function clearHeader() {
-    var headerArray = ["occipital_header","corpus_header","thalamus_header","pituitary_header","midbrain_header","pons_header","cerebellum_header","parietal_header",
+    var headerArray = ["occipital_header","corpus_header","thalamus_header","pituitary_header","midbrain_header","parietal_header",
     "frontal_header","temporal_header"];
 
     var headerArrayLength = headerArray.length;
