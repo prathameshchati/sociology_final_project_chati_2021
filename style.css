@@ -1,0 +1,334 @@
+body {
+    background-color: black; 
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(183, 18, 216);
+    border: rgb(183, 18, 216);
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+.guide {
+    margin-bottom: -50px;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+}
+
+.about_headers {
+    margin-bottom: -50px;
+    position: absolute;
+    left: 100px;
+}
+
+.about_link {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+  
+.about_link_p {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.text_box {
+    height:500px;
+    width:800px;
+    max-width: 800px;
+    max-height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-top: -40px;
+}
+
+.header_box {
+    height:100px;
+    width:800px;
+    position: relative;
+    margin-left: auto;
+    margin-top: -470px;
+}
+
+.text_box p {
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;               
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(48, 48, 212);    
+    border-radius: 20px;      
+    border: 3px solid rgb(48, 48, 212);  
+}
+
+.occipital {
+    position: absolute;
+    top: 370px;
+    left: 160px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.corpus {
+    position: absolute;
+    top: 370px;
+    left: 330px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.thalamus {
+    position: absolute;
+    top: 450px;
+    left: 320px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.pituitary {
+    position: absolute;
+    top: 510px;
+    left: 400px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.midbrain {
+    position: absolute;
+    top: 510px;
+    left: 310px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.pons {
+    position: absolute;
+    top: 570px;
+    left: 320px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.cerebellum {
+    position: absolute;
+    top: 570px;
+    left: 200px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.parietal {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.frontal {
+    position: absolute;
+    top: 350px;
+    left: 490px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.temporal {
+    position: absolute;
+    top: 430px;
+    left: 490px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight :bolder;
+    background-color: transparent;
+    border: none;
+}
+
+.nav_bar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav_bar a {
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.not_selected:hover {
+    transform: scale(1.1);
+}
+
+.selected {
+      background-color: rgb(64, 64, 221);
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 0px; 
+}
+  
+
+
+.brain {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.brain_diagram {
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    width: 3000px;
+    max-width: 750px;
+}
+
+#brain_diagram {
+    -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+button {
+    -webkit-animation: fadein 3s;
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+
+#brain {
+    -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+#landing_header {
+    -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+#landing_intro {
+    -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 500px){
+
+    div.brain_diagram{
+        width: 80%;
+    }
+    div.brain_diagram-select{
+        width: 80%;
+    }
+    div.nav_bar{
+        width: 80%;
+    }
+    div.date_input{
+        width: 80%;
+    }
+  }
+

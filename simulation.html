@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="Final Project" content="Sociology Final Project">
+        <title>mentalhealth</title>
+    </head>
+
+    <body>
+
+        <div class="nav_bar">
+            <a href="references.html" class="not_selected">References</a>
+            <a href="simulation.html" class="selected">Simulation</a>
+            <a href="about.html" class="not_selected">About</a>
+            <a href="home.html" class="not_selected">Home</a>
+        </div>
+
+        <div class="guide">
+            <h1>Click on a part of the brain to understand its function and how it is important in processing stress.</h1>
+            <p class="about_link_p">See the <a href="about.html" class="about_link">About</a> page for more information.</p>
+        </div>
+
+        <div class="brain_diagram_box">
+            <img src="brain.jpg" alt="brain" class="brain_diagram" id="brain_diagram">
+            <button class="occipital" onclick="toggleOccipitalText()">Occipital Lobe</button>
+            <button class="corpus" onclick="toggleCorpusText()">Corpus Callosum</button>
+            <button class="thalamus" onclick="toggleThalamusText()">Thalamus</button>
+            <button class="pituitary" onclick="togglePituitaryText()">Pituitary Gland</button>
+            <button class="midbrain" onclick="toggleMidbrainText()">Midbrain</button>
+            <button class="pons" onclick="togglePonsText()">Pons</button>
+            <button class="cerebellum" onclick="toggleCerebellumText()">Cerebellum</button>
+            <button class="parietal" onclick="toggleParietalText()">Parietal Lobe</button>
+            <button class="frontal" onclick="toggleFrontalText()">Frontal Lobe</button>
+            <button class="temporal" onclick="toggleTemporalText()">Temporal Lobe</button>
+        </div>
+
+        <div class="header_box">
+            <h1 id='occipital_header' style='display: none'>Occipital Lobe</h1>
+            <h1 id='corpus_header' style='display: none'>Corpus Callosum</h1>
+            <h1 id='thalamus_header' style='display: none'>Thalamus</h1>
+            <h1 id='pituitary_header' style='display: none'>Pituitary Gland</h1>
+            <h1 id='midbrain_header' style='display: none'>Midbrain</h1>
+            <h1 id='pons_header' style='display: none'>Pons</h1>
+            <h1 id='cerebellum_header' style='display: none'>Cerebellum</h1>
+            <h1 id='parietal_header' style='display: none'>Parietal Lobe</h1>
+            <h1 id='frontal_header' style='display: none'>Frontal Lobe</h1>
+            <h1 id='temporal_header' style='display: none'>Temporal Lobe</h1>
+        </div>
+
+        <div class="text_box">
+
+            <p id='occipital_text' style='display: none'>
+                The Occipital Lobe is the part of the brain responsible for our vision, including depth perception, perceiving motion, identifying color, and 
+                recognizing object features. Damage in this area often causes side effects such as hallucinations, blindness, inability to recognize objects, lack of depth 
+                perception, and trouble perceiving our environment. 
+
+            </p>     
+
+            <p id='corpus_text' style='display: none'>
+                Our brain is separated into two hemispheres (right and left lobes). The Corpus Callosum is the bundle of nervse that essentially bridges the left and right lobes
+                of the brain, enabling rapid communication between the two lobes. Different sides of our brain have varying functions, therefore, it is vital that the two
+                sides of the brain are able to communicate rapidly and efficiently.
+
+            </p>     
+
+            <p id='thalamus_text' style='display: none'>
+                The Thalamus is located near the core center of the brain, with the Hypothalamus sitting right below the Thalamus. Although named similarly, the Thalamus and 
+                Hypothalamus serve distinct functions. The Thalamus is responsible for maintaining a state of consciousness and alertness. Broadly, the Thalamus has an
+                overarching role in processing sensory and motor signals. 
+
+            </p>     
+            
+            <p id='pituitary_text' style='display: none'>
+
+            </p>     
+
+
+            <p id='midbrain_text' style='display: none'>
+
+            </p>     
+
+            <p id='pons_text' style='display: none'>
+
+            </p>     
+
+            <p id='cerebellum_text' style='display: none'>
+
+            </p>     
+
+            <p id='parietal_text' style='display: none'>
+
+            </p>     
+
+            <p id='frontal_text' style='display: none'>
+
+            </p>     
+
+            <p id='temporal_text' style='display: none'>
+
+            </p>     
+
+        </div>
+
+    </body>
